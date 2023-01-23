@@ -1,0 +1,401 @@
+body,
+html {
+    height: 100%
+}
+
+body {
+    background-color: #3a0ca3;
+    color: #fff;
+    font-family: Roboto Slab, serif;
+    min-height: 100vh
+}
+
+footer {
+    background-color: #3f37c9;
+    background: linear-gradient(0deg, #3a0ca3, #3f37c9 10%, #3f37c9);
+    padding: 3em
+}
+
+.topslot {
+    font-family: Courier New, Courier, monospace;
+    font-size: .8em
+}
+
+.topslot span {
+    text-decoration: underline
+}
+
+.datehead {
+    margin-left: .5em;
+    text-shadow: 1px 1px 1px #000
+}
+
+.datehead a {
+    color: #4cc9f0;
+    cursor: pointer
+}
+
+.splitter {
+    background: linear-gradient(180deg, rgba(123, 73, 236, .7), rgba(58, 12, 163, 0) 140px);
+    border-radius: 1.2em
+}
+
+a {
+    color: #4cc9f0;
+    text-decoration: none
+}
+
+a:hover {
+    color: #f72585
+}
+
+button i {
+    color: #fff
+}
+
+.countdown {
+    font-family: Courier New, Courier, monospace;
+    font-size: 2em;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #000
+}
+
+.forkcard {
+    border-radius: 1.2em
+}
+
+.forkcard h4 a {
+    color: #fff;
+    text-decoration: none
+}
+
+.forkcard h4 a:hover {
+    color: #f72585
+}
+
+.forklive {
+    background: #17c92f;
+    background: linear-gradient(0deg, #15b12a, #08631e);
+    border: .1em solid #13d123
+}
+
+.forkpromo {
+    background: #c9c617;
+    background: linear-gradient(0deg, #8e0cb6, #0c2e9c);
+    border: .1em solid #d1ce13
+}
+
+.forkpending {
+    background: #7209b7;
+    background: linear-gradient(0deg, #7209b7, #480ca8);
+    border: .1em solid #7209b7
+}
+
+.forkdead,
+.forkrugged {
+    background: #c91717;
+    background: linear-gradient(0deg, #c91717, #810c0c);
+    border: .1em solid #e61d1d
+}
+
+.forkfeatured {
+    background: #c91717;
+    background: linear-gradient(0deg, #a1a1a1, #4d4a4a);
+    border: .1em solid #d1c3c3
+}
+
+.promoribbon {
+    background-image: url(/images/promo.svg);
+    background-position: 0 .1em;
+    background-repeat: no-repeat
+}
+
+.forklogo {
+    border-radius: 50%;
+    width: 100% !important
+}
+
+.forkfeatured .forklogo {
+    border: .75em solid rgba(99, 100, 99, .4)
+}
+
+.forkfeatured .forklogo:hover {
+    border: .75em solid hsla(120, 1%, 65%, .8)
+}
+
+.forklive .forklogo {
+    border: .75em solid rgba(23, 201, 47, .4)
+}
+
+.forklive .forklogo:hover {
+    border: .75em solid rgba(23, 201, 47, .8)
+}
+
+.forkpending .forklogo {
+    border: .75em solid rgba(123, 10, 199, .5)
+}
+
+.forkpending .forklogo:hover {
+    border: .75em solid rgba(123, 10, 199, .8)
+}
+
+.forkrugged .forklogo {
+    border: .75em solid rgba(201, 23, 23, .4)
+}
+
+.forkrugged .forklogo:hover {
+    border: .75em solid rgba(201, 23, 23, .8)
+}
+
+.forkdead .forklogo {
+    border: .75em solid rgba(201, 23, 23, .4)
+}
+
+.forkdead .forklogo:hover {
+    border: .75em solid rgba(201, 23, 23, .8)
+}
+
+.forklive .promoribbon .forklogo {
+    border: .75em solid rgba(23, 201, 47, 0)
+}
+
+.forklive .promoribbon .forklogo:hover {
+    border: .75em solid rgba(23, 201, 47, .8)
+}
+
+.forkpending .promoribbon .forklogo {
+    border: .75em solid transparent
+}
+
+.forkpending .promoribbon .forklogo:hover {
+    border: .75em solid hsla(0, 0%, 100%, 0)
+}
+
+.forkstats span {
+    color: #4cc9f0
+}
+
+.forkchain {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 50%;
+    height: 2.5em;
+    margin: .5em;
+    width: 2.5em
+}
+
+.adminlist {
+    border: .1em solid #110d5d
+}
+
+.adminlist:hover {
+    background: linear-gradient(0deg, #a30c4d, #c9378f);
+    border: .1em solid #ff00c8
+}
+
+.adminlist a {
+    color: #fff
+}
+
+.adminlist a:hover {
+    color: #ff0
+}
+
+.list-dev {
+    background: linear-gradient(0deg, #3a0ca3, #3f37c9)
+}
+
+.list-live {
+    background: linear-gradient(0deg, #076b16, #278135)
+}
+
+.list-rugged {
+    background: linear-gradient(0deg, #a30c0c, #c93737)
+}
+
+.forkchain-sml {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 50%;
+    height: 1.6em;
+    width: 1.6em
+}
+
+.bsc {
+    background-image: url(/images/bsc.svg)
+}
+
+.avalanche {
+    background-image: url(/images/avalanche.svg)
+}
+
+.fantom {
+    background-image: url(/images/fantom.svg)
+}
+
+.polygon {
+    background-image: url(/images/polygon.svg)
+}
+
+.cronos {
+    background-image: url(/images/cronos.png)
+}
+
+.metis {
+    background-image: url(/images/metis.png)
+}
+
+.harmony {
+    background-image: url(/images/harmony.svg)
+}
+
+.ada {
+    background-image: url(/images/ada.png)
+}
+
+.eth {
+    background-image: url(/images/eth.png)
+}
+
+.echelon {
+    background-image: url(/images/echelon.png)
+}
+
+.iconstrip {
+    background: rgba(181, 23, 158, .25);
+    border-radius: 2em;
+    color: #fff;
+    font-size: 1.8em
+}
+
+.iconstrip-featured {
+    background: rgba(77, 74, 74, .25)
+}
+
+.iconstrip i {
+    color: hsla(0, 0%, 100%, .3);
+    padding: 0 .25em
+}
+
+.iconstrip a i {
+    color: #fff
+}
+
+.iconstrip a:hover i {
+    color: #4cc9f0
+}
+
+.viewstrip {
+    background: transparent;
+    border-radius: 0
+}
+
+.navicons i {
+    font-size: 2.5em
+}
+
+#searchIcon {
+    cursor: pointer
+}
+
+.navicons-sml i {
+    font-size: 2em
+}
+
+.navicons a i {
+    color: #fff;
+    text-shadow: 2px 2px 2px #000
+}
+
+.navicons a:hover i {
+    color: #4cc9f0
+}
+
+footer {
+    margin-top: 3em
+}
+
+h1 {
+    text-shadow: 2px 2px 2px #000
+}
+
+h1 a {
+    color: #fff;
+    text-decoration: none
+}
+
+h1 span {
+    color: #4cc9f0
+}
+
+h1 span span {
+    font-size: .5em
+}
+
+h1 a:hover {
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: glowing 20s linear infinite;
+    animation: glowing 20s linear infinite;
+    background: linear-gradient(45deg, red, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, red);
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-size: 200%;
+    text-shadow: none
+}
+
+@-webkit-keyframes glowing {
+    0% {
+        background-position: 0 0
+    }
+
+    50% {
+        background-position: 400% 0
+    }
+
+    to {
+        background-position: 0 0
+    }
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0
+    }
+
+    50% {
+        background-position: 400% 0
+    }
+
+    to {
+        background-position: 0 0
+    }
+}
+
+.totals span {
+    color: #4cc9f0;
+    font-weight: 700
+}
+
+#dexscreener-embed {
+    height: 50vh;
+    position: relative;
+    width: 100%
+}
+
+#dexscreener-embed iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+
+#logoCanvas {
+    border: 4px solid #4cc9f0;
+    cursor: pointer
+}
+
+#logoCanvas:hover {
+    border: 4px solid #ff00c8
+}
